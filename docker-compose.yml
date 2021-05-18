@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  fluentd:
+    image: whitesoil/fluentd:latest
+    ports:
+      - "8080:80"
